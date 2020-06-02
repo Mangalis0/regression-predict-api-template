@@ -67,7 +67,7 @@ To do this, follow the steps below by running the given commands within a Git ba
  1. Ensure that you have the prerequisite Python libraries installed on your local machine:
 
  ```bash
- pip install -U flask numpy pandas scikit-learn
+ pip install -U flask numpy pandas scikit-learn catboost
  ```
 
  2. Clone the *forked* repo to your local machine.
@@ -174,7 +174,7 @@ Within these setup steps, we will be using a remote EC2 instance, which we will 
 2. Install the prerequisite python libraries on both the Host (EC2 instance), and Client (local machine):
 
 ```bash
-pip install -U flask numpy pandas scikit-learn
+pip install -U flask numpy pandas scikit-learn catboost
 ```
 
 3. Clone your copy of the API repo onto both the Host and Client machines, then navigate to the base of the cloned repo:
